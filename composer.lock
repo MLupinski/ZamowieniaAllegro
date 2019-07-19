@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d8604d6fb7775c5c1eb9288aecae29ed",
+    "packages": [
+        {
+            "name": "zoondo/allegro-api",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zoondo/allegro-api.git",
+                "reference": "50726b98681410a2af23d95009dfeadabb38b30d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zoondo/allegro-api/zipball/50726b98681410a2af23d95009dfeadabb38b30d",
+                "reference": "50726b98681410a2af23d95009dfeadabb38b30d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zoondo\\AllegroApi\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maciej Strączkowski",
+                    "email": "m.straczkowski@gmail.com"
+                }
+            ],
+            "description": "The PHP Interface for Allegro RestAPI and Allegro WebAPI",
+            "homepage": "https://www.zoondo.eu",
+            "keywords": [
+                "allegro",
+                "api",
+                "rest",
+                "webapi"
+            ],
+            "time": "2019-03-15T08:59:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,173 @@
+body {
+  margin: 0 auto;
+}
+
+.intext
+{
+  width: 150px !important;
+  margin-left: 15px !important;
+  cursor: pointer !important;
+}
+
+h4
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h5
+{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p
+{
+  font-size: 12px;
+  line-height: 5px;
+}
+
+.invoice {
+  background-color: #fff;
+  position: relative;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 15px;
+  width: 210mm;
+  height: 297mm;
+}
+
+.fvheader {
+  margin: 0 auto;
+  width: auto;
+  height: 210px;
+  border-bottom: 1px solid black;
+}
+
+.fvbody {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: auto;
+  height: auto;
+}
+
+footer {
+  height: auto;
+  width: auto;
+}
+
+.receivingPerson {
+  position: absolute;
+  bottom: 25%;
+  left: 3%;
+  float: left;
+  border-top: 2px solid black;
+}
+
+.displayPerson {
+  position: absolute;
+  bottom: 25%;
+  right: 3%;
+  float: right;
+  border-top: 2px solid black;
+}
+
+.fvtable {
+  font-family: sans-serif;
+  font-size: 12px;
+  border: 1px solid #818181;
+  padding: 2px;
+  border-spacing: 0 1px;
+}
+
+.fvInfo {
+  background-color: #ffe0b2;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 26vw;
+  height: auto;
+}
+
+.fvInfo2 {
+  background-color: #ffe0b2;
+  border: 2px solid #ffcc80;
+  margin: 0 auto;
+  margin-top: 25vh;
+  width: 26vw;
+  height: 250px;
+  -webkit-box-shadow: 4px 9px 16px -4px rgba(0,0,0,0.23);
+  -moz-box-shadow: 4px 9px 16px -4px rgba(0,0,0,0.23);
+  box-shadow: 4px 9px 16px -4px rgba(0,0,0,0.23);
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+}
+
+tr {
+  border-bottom: 1px solid #818181;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  color: #47c;
+}
+
+.seller {
+  font-weight: bold;
+  margin-left: 1%;
+  margin-top: 3%;
+  float: left;
+}
+
+.buyer {
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 3%;
+  float: left;
+}
+
+.fvdate {
+  font-weight: bold;
+  margin-top: 3%;
+  text-align: center;
+  float: right;
+}
+
+.error {
+  background: red;
+  border-radius: 15px;
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin:0 auto;
+}
+
+.ok {
+  background: green;
+  border-radius: 15px;
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin:0 auto;
+}
+
+.news {
+  margin-top: 15px;
+  padding: 5px;
+}

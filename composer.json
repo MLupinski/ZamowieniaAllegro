@@ -1,0 +1,5 @@
+{
+    "require": {
+        "zoondo/allegro-api": "^2.0"
+    }
+}

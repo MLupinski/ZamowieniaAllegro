@@ -1,0 +1,47 @@
+[
+    {
+        "name": "zoondo/allegro-api",
+        "version": "2.0.5",
+        "version_normalized": "2.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zoondo/allegro-api.git",
+            "reference": "50726b98681410a2af23d95009dfeadabb38b30d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zoondo/allegro-api/zipball/50726b98681410a2af23d95009dfeadabb38b30d",
+            "reference": "50726b98681410a2af23d95009dfeadabb38b30d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2019-03-15T08:59:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zoondo\\AllegroApi\\": "source/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Maciej Strączkowski",
+                "email": "m.straczkowski@gmail.com"
+            }
+        ],
+        "description": "The PHP Interface for Allegro RestAPI and Allegro WebAPI",
+        "homepage": "https://www.zoondo.eu",
+        "keywords": [
+            "allegro",
+            "api",
+            "rest",
+            "webapi"
+        ]
+    }
+]
